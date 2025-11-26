@@ -1,0 +1,5 @@
+# Copy this file to terraform.tfvars and customize
+
+aws_region           = "us-east-1"
+bucket_name          = "my-terraform-learning-bucket-12345"  # Must be globally unique!
+enable_bucket_policy = true

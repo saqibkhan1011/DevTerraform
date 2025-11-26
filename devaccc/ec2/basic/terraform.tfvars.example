@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and customize
+
+aws_region       = "us-east-1"
+instance_type    = "t2.micro"
+key_name         = "terraform-learning-key"
+public_key_path  = "~/.ssh/terraform-aws.pub"
+allowed_ssh_cidr = ["0.0.0.0/0"]  # Restrict to your IP in production!
